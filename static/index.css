@@ -1,0 +1,72 @@
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: url("{{ url_for('static', filename='background.png') }}") no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+
+        .navbar {
+            background-color: #ff3131;
+        }
+
+        .navbar-brand {
+            font-family: 'Pacifico', cursive;
+            font-size: 2rem;
+            color: white !important;
+        }
+
+        .hero {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 5rem 2rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            color: #ff3131;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 1rem auto 2rem;
+        }
+
+        .sabores {
+            background-color: #fff;
+            padding: 4rem 2rem;
+        }
+
+        .sabores h2 {
+            text-align: center;
+            color: #ff3131;
+            margin-bottom: 2rem;
+        }
+
+        .footer {
+            background-color: #212529;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .btn-order {
+            background-color: #ff3131;
+            border: solid 2px #ff3131;
+            color: white;
+            border-radius: 20px;
+        }
+
+        .btn-order:hover {
+            background-color: white;
+            color: #ff3131;
+            border: solid 2px #ff3131;
+        }
+        .exe{
+            color: #ff3131;
+            margin: 0 0 20px 20px;
+        }
+        img{
+            max-width: 100px;
+            max-height: 100px;
+        }
